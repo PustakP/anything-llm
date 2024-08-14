@@ -11,6 +11,7 @@ services:
     image: 
       url: docker.io/mintplexlabs/anythingllm:render
     region: oregon # optional (defaults to oregon)
+    tier: starter
     numInstances: 1 # optional (defaults to 1)
     healthCheckPath: /api/ping
     autoDeploy: false
